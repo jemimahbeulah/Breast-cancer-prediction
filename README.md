@@ -1,11 +1,11 @@
 # Breast-cancer-prediction
 
-Abstract
+ABSTRACT
 
 Breast Cancer is the most leading malignancy affecting 2.1 million women each year which leads to the greatest number of deaths among women. Early treatment not only helps to cure cancer but also helps in prevention of its recurrence. And hence this system mainly focuses on prediction of breast cancer where it uses different machine learning algorithms for creating models like decision tree, logistic regression, random forest and svm which are applied on pre-processed data which suspects greater accuracy for prediction. Amongst all the models, Random Forest Classification leads to best accuracy with 98.57%.These techniques are coded in python by importing numpy, pandas, sklearn and seaborn libraries.
 
 
-Implementation 
+IMPLEMENTATION 
 
 To predict whether a cell is benign or malignant, we have used five machine learning techniques such as SVM, Decision tree, Random Forest Classification, SVM and Logistic Regression individually. Scikit-learn, an open-source machine learning library in Python programming language, is used. Spyder is an open-source web application that permits to develop and share reports that include live code, visualizations, equations, and narrated text which is utilized to fulfill our goal. The confusion matrix is calculated for each technique. From the dataset of 699 instances, we used 629 instances which are 90% of the total data to train for all five techniques. We used 70 instances to test both our trained models. Random Forest Classification outperformed all other machine learning techniques so far we have studied with the highest accuracy of 98.57% whereas SVM, LR and Decision tree achieved the next highest accuracy of 95.7%. In summary, Random Forest Classification was able to show its power in terms of effectiveness and efficiency based on accuracy and recall. 
 
